@@ -21,7 +21,7 @@ export default function Hero() {
       </div>
       
       <div className="w-full md:w-1/2 lg:w-5/12 flex-shrink-0 relative z-10 flex flex-col items-center md:items-end mt-4 md:mt-0">
-         <div className="w-full aspect-square md:aspect-[4/5] bg-slate-200 rounded-[2rem] bg-cover bg-center shadow-lg border border-white" style={{ backgroundImage: "url('/dr-shannie.jpeg')" }}></div>
+         <div className="w-full aspect-square md:aspect-[4/5] bg-slate-200 rounded-[2rem] bg-cover bg-center shadow-lg border border-white" style={{ backgroundImage: `url('${import.meta.env.BASE_URL}images/dr-shannie.jpeg')` }}></div>
          <div className="bg-white px-6 py-4 rounded-xl shadow-xl -mt-8 mr-auto md:mr-0 md:-ml-8 relative z-20 border border-blue-50">
            <p className="text-base font-bold text-[#1E3A8A]">Dr. Shannie, MD</p>
            <p className="text-[11px] text-blue-500 uppercase font-bold tracking-wider mt-0.5">Clinical Lead & Founder</p>
