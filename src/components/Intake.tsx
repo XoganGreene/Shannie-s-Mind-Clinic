@@ -41,7 +41,7 @@ export default function Intake() {
       </div>
 
       <div className="w-full md:w-1/2 p-6 min-h-[250px] bg-slate-50 rounded-2xl border border-slate-100 flex flex-col items-center justify-center text-center relative overflow-hidden">
-         <div className="absolute inset-0 bg-cover bg-center opacity-10" style={{ backgroundImage: `url('${import.meta.env.BASE_URL}images/consultation.jpeg')` }}></div>
+         <div className="absolute inset-0 bg-cover bg-center opacity-10" style={{ backgroundImage: `url('${import.meta.env.BASE_URL}consultation.jpeg')` }}></div>
          <div className="relative z-10 flex flex-col items-center">
            <div className="w-16 h-16 bg-white rounded-xl shadow-sm rotate-3 flex items-center justify-center mb-4 border border-blue-50">
              <ClipboardCheck size={24} className="text-blue-400" />

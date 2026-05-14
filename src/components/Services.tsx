@@ -8,7 +8,7 @@ export default function Services() {
         Online Consultations
       </h3>
       
-      <div className="w-full h-32 rounded-2xl bg-slate-100 mb-5 bg-cover bg-center shadow-sm" style={{ backgroundImage: `url('${import.meta.env.BASE_URL}images/consultation.jpeg')` }}></div>
+      <div className="w-full h-32 rounded-2xl bg-slate-100 mb-5 bg-cover bg-center shadow-sm" style={{ backgroundImage: `url('${import.meta.env.BASE_URL}consultation.jpeg')` }}></div>
 
       <p className="text-xs text-slate-500 mb-6 font-medium">
         Private video sessions tailored to your history. Automated clinical intake for a seamless start.
